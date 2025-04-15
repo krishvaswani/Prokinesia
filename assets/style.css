@@ -88,6 +88,10 @@ a.elementor-button.elementor-button-link.elementor-size-sm{
 
 }
 
+.size_logo{
+	height: 35px;
+	width: 35px;
+}
 
 .btn-default{
 	display: inline-block;
@@ -632,6 +636,11 @@ header.main-header .header-sticky.active{
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
 }
+
+.ekit-wid-con .ekit-form form textarea {
+    padding: 18px !important;
+}
+
 
 .slicknav_btn,
 .slicknav_nav .slicknav_item {
