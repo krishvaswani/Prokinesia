@@ -13,6 +13,57 @@ body{
 	color: var(--e-global-color-text);
 }
 
+.elementskit-single-testimonial-slider.elementskit-testimonial-slider-block-style.elementskit-testimonial-slider-block-style-two.elementor-repeater-item-ea7d0f2{min-height: 436px !important;}
+
+
+
+/* Common button styles */
+.cta-buttons {
+	display: none; /* Hide by default */
+	position: sticky;
+	bottom: 0;
+	width: 100%;
+	background-color: #fff;
+	text-align: center;
+	z-index: 9999;
+  }
+  
+  .cta-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* padding: 15px 30px; */
+	min-height: 60px;
+	/* margin: 5px; */
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	/* border-radius: 5px; */
+	color: #fff;
+	width: 48%; /* Buttons will take up full width when combined */
+  }
+  
+  .call-now {
+	background-color: #d32f2f; /* Premium Red */
+  }
+  
+  .contact-us {
+	background-color: #1976d2; /* Premium Blue */
+  }
+  
+  /* Mobile View Only */
+  @media (max-width: 767px) {
+	.cta-buttons {
+	  display: flex; /* Show buttons on mobile */
+	}
+  
+	.cta-button {
+	  width: 100%; /* Full width buttons */
+	}
+  }
+  
+
+
 img{
 	max-width: 100%;
 	height: auto;
@@ -164,6 +215,22 @@ a.elementor-button.elementor-button-link.elementor-size-sm{
 	width: 106%;
 }
 
+
+img.attachment-full.size-full.wp-image-3270{
+	height: 110px;
+    width: 150px;
+}
+img.attachment-full.size-full.wp-image-1055 {
+    margin-top: 35px;
+}
+h3{
+	margin-top: 10px;
+}
+
+.home-why-us-image img {
+    transform: translateX(-55%) !important;
+}
+
 /*   Elementor Button CSS  */
 
 .elementor-widget-button .elementor-button,
@@ -247,7 +314,17 @@ a.elementor-button.elementor-button-link.elementor-size-sm{
 	transition: all 0.4s ease-in-out;	
 }
 
+@media(max-width:699px){
+	.about-img {
+		height: 300px !important;
+		width: 600px;
+	}
+	
+}
+
 @media only screen and (max-width: 767px) {
+
+	
 
     .btn-default {
         padding: 15px 55px 15px 15px;
@@ -4344,3 +4421,66 @@ h2.elementor-heading-title span{
 .hero-slider .swiper-slide > .widgetarea_warper > .elementor-widget-container > .elementor  > .elementor-element{
 	height: 100%;
 }
+
+
+img.attachment-full.size-full.wp-image-1146 {
+    height: 580px !important;
+}
+
+@media (min-width:699px) {
+	
+	.about-img{
+		height: 666px !important;
+		width: 601px;
+		 
+	}
+}
+.about-div{
+	     margin-top: 90px !important;
+}
+ 
+
+.newSectionImg{
+	position: relative;
+	top: -40px;
+}
+
+.newSection{
+	margin-top: -60px;
+}
+.common-space{
+	margin-top:-36px !important;
+}
+ 
+
+
+.animatedContent img {
+	width: 315px !important;
+	height: 365px !important;
+	object-fit: cover !important;
+	display: block;
+}
+ 
+ 
+.elementor-element-d1ead47 {
+  text-align: left !important;
+}
+
+ 
+.elementor-button-wrapper {
+  justify-content: flex-start !important;
+}
+
+.appointment-button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+	margin-left: 110px;
+	position: relative;
+	top: -58px;
+}
+
+ 
+
+ 
